@@ -103,3 +103,29 @@ h2 {
     align-items: center;
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    margin: 40px 0;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    height: auto;
+    width: 600px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+figcaption {
+    font-weight: bold;
+    float: right;
+    margin-right:
+}
