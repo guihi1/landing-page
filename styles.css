@@ -68,12 +68,14 @@ h1 {
     color: #F9FAF8;
 }
 
-button {
+.first-button {
     border-radius: 8px;
     padding: 8px 16px;
     width: 100px;
     background-color: #3882F6;
     border: none;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 h2 {
@@ -127,5 +129,41 @@ blockquote {
 figcaption {
     font-weight: bold;
     float: right;
-    margin-right:
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px 100px;
+    border-radius: 15px;
+    gap: 40px;
+    color: #F9FAF8;
+}
+
+.second-button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 100px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+}
+
+h3 {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    margin-top: 40px;
 }
